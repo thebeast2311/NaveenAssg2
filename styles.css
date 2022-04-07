@@ -1,0 +1,334 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	background-color: black;
+	color: white;
+	font-family: verdana;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: red;
+}
+
+a:visited{
+	color: darkred
+}
+
+
+
+.header{
+	font-size: 70px;
+	text-align: center;
+}
+
+.navbar{
+	width: 1450px;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	text-align: center;
+	line-height: 4em;
+	border-bottom: 4px red solid;
+}
+
+
+.navbar ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black
+
+
+}
+.navbar li{
+	display: inline;
+	padding: 20px;
+
+}
+
+.box-1{
+	background-image: url("gymboxxhome.jpg");
+	background-repeat: no-repeat;
+	background-size: 1450px 800px;
+}
+
+.box-1 p{
+	text-align: center;
+	font-size: 160px;
+	padding: 140px;
+	text-shadow: 4px 4px red;
+}
+
+.box-2{
+	line-height: 1.6em;
+	width: 33.3%;
+	border: 2px solid red;
+	padding: 10px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.box-2 h3{
+	color: red;
+	padding-bottom: 20px;
+	font-size: 28px;
+}
+
+.locations{
+	margin-top: 80px;
+	margin-left: 20px;
+}
+
+.locations h2{
+	color: red;
+	font-size: 28px;
+	padding: 10px;
+}
+
+.locations p{
+	width: 90%;
+	line-height:1.6em;
+	padding: 20px;
+}
+
+.locations ul{
+	line-height: 2em;
+	padding: 20px;
+}
+
+.locations img{
+	float: right;
+	padding-left: 100px;
+}
+
+.box-3{
+	line-height: 1.6em;
+	width: 33.3%;
+	padding: 10px;
+	float: left;
+	box-sizing: border-box;
+	border-top: 2px solid red;
+	text-align: center
+}
+
+.button{
+	background-color: red;
+	border: none;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+
+.button:hover{
+	background-color: darkred;
+}
+
+.box-4{
+	background-image: url("bkgrnd.jpg");
+	background-repeat: no-repeat;
+	background-size: 1450px 800px;
+}
+
+.box-4 h2{
+	text-align: center;
+	font-size: 40px;
+	padding: 40px;
+}
+
+.box-4 p{
+	text-align:center;
+	line-height: 1.5em;
+	padding-bottom: 80px;
+}
+
+.box-5 h2{
+	text-align: center;
+	font-size: 40px;
+	padding: 40px;
+}
+
+.box-6{
+	line-height: 1.6em;
+	width: 20%;
+	padding: 10px;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	margin-left: 150px;
+	margin-bottom: 100px;
+
+}
+
+.box-7{
+	line-height: 2em;
+	width: 20%;
+	padding: 10px;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	margin-left: 150px;
+	margin-bottom: 100px;
+	border: 2px solid white;
+}
+
+.box-7 h3{
+	background-color: white;
+}
+
+.box-7 p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.tnc{
+	float: left;
+	line-height: 2em;
+	padding-left: 50px;
+}
+
+.tnc h3{
+	font-size: 28px;
+	padding-bottom: 20px;
+}
+
+.box-8{
+	width: 1100px;
+	height: 600px;
+	border: 2px solid white;
+	margin-top: 550px;
+	margin-left: 170px;
+	margin-bottom: 80px;
+	position: relative;
+}
+
+.box-8 h2{
+	text-align: center;
+	font-size: 32px;
+	padding: 30px;
+}	
+
+.box-8 p{
+	text-align:center;
+	line-height: 1.6em;
+}
+
+.box-9{
+	line-height: 2em;
+	width: 50%;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+	text-align: left;
+
+}
+
+.feedback label{
+	display: block;
+}
+
+.feedback input{
+	padding: 8px;
+	width: 95%;
+}
+
+.feedback textarea{
+	padding: 32px;
+	width: 90%;
+	
+}
+
+.form-group{
+	padding-bottom: 15px;
+}
+
+select{
+	width: 100%;
+	padding: 16px 20px;
+	background-color: white;
+}
+
+.fa {
+  font-size: 10px;
+  width: 50px
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 20px;
+}
+
+.fa:hover {
+    color: red;
+    font-size: 150%;
+}
+
+.fa-facebook {
+  background: black;
+  color: grey;
+}
+
+.fa-instagram {
+  background: black;
+  color: grey;
+}
+
+.fa-twitter {
+  background: black;
+  color: grey;
+}
+
+.fa-youtube {
+  background: black;
+  color: grey;
+}
+
+.video{
+	margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
